@@ -1,54 +1,85 @@
-/* 
-* {
-    margin: 0;
-    padding: 0;
-} */
+/* home page container */
 .container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     width:100vw;
     height:100vh;
     background-image: url("images/steps.jpg");
+    border-radius:10%;
     background-repeat: no-repeat; 
-    /* background-position:center;
-    background-position-x: center;
-    background-position-y:center; */
     background-attachment: fixed; 
     background-size:cover;
     padding: 10px;
-    /* position: relative */
-    
-    
-    /* margin:10px;
-    padding: 0px; */
-    /* box-sizing: border-box */
 } 
-/* body{
-    overflow: hidden;
-} */
-.steps-image {
-    background-image: url("images/steps.jpg");
-    background-repeat: no-repeat;
-    width: 100%;
-    border-radius:50px;
-    background-attachment: fixed; 
-    background-size: 100%;
-    border-color: grey;
-    border-style: solid;
-    border-width:thick;
+/* Aishwarya krishnan format */
+.name{
+    color:black; 
+    top: 160px;
+    left:40px;
+    position:absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    
 }
 
-.pencil-image {
-    background-image: url ("images/pencil.jpg");
-    background-repeat: no-repeat;
-    width:100%;
-    border-radius:10px;
-    border-style: solid;
-    border-width:thick;
-    border-color:rgb(52, 118, 232);
-    background-size: 100%;
-    background-attachment: fixed;
+/* aspiring dev format */
+.dev{
+    color:black;
+    left: 80px;
+    top: 240px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    ;
 }
+    
+}
+/* navigation bar */
+#navbar{
+    /* text-decoration: none; */
+    display:flex;
+    flex-direction:column;
+    border-style: solid;
+    border-color:darkslategrey;
+    /* text-align:right; */
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* buttons on navbar */
+.nav-button {
+   
+    font-weight:normal;
+    border-radius: 10%;
+    background-color:teal;
+    color: black;
+    font-size: 20px;
+    justify-content: end;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+/* paragraph on all pages */
+p {
+    color:darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 400px;
+    text-align: center;
+    font-size:25px;
+    font-weight:bold;  
+}
+/* headings on all pages */
+h1{
+    color:black;
+    font-weight:bolder;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:end;
+    margin-top:10px;
+    padding-top: 20px;
+    text-decoration:underline;
+}
+
+/* blog page container */
 .articles {
     background-image: url("images/pencils.jpg");
     background-repeat: no-repeat;
@@ -59,105 +90,28 @@
     width:100vw;
     height:100vh;
 }
-/* div{
-    display:inline-block
-} */
-
-.top-left{
-    color:orange; 
-    top: 130px;
-    left:40px;
-    position:absolute;
-    font-family: shrikhand, cursive;
-    font-size: 50px;
-    font-weight: normal;
-    
-    
-}
-.heading{
-    color: orange ;
-    font-weight: lighter;
-    left: 80px;
-    top: 210px;
-    position: absolute;
-    font-family: shrikhand, cursive;
-    font-size: 30px;
-    ;
-}
-    
+/* image on blog page */
+.pencil-image {
+    background-image: url ("images/pencil.jpg"); */
+    background-repeat: no-repeat;
+    width:100%;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
-#navbar{
-    /* text-decoration: none; */
-    display:flex;
-    flex-direction:column-reverse;
-    border-style: solid;
-    background-color: palegreen;
-    /* justify-content:center;  */
-    /* align-items:flex-end; */
-    color:darkslategrey;
-    /* text-align:right; */
-    justify-content: flex-end;
-    font-family: shrikhand, cursive;
-    
-}
-
-.nav-button {
-    border-radius: 10%;
-    background-color: teal;
-    color: orange;
-    /* text-decoration: none; */
-    font-size: 25px;
-    text-align:right;
-    font-family: shrikhand, cursive;
-    padding-left: 20px;;
-    top:0;
-    right:20px;
-
-    
-}
-
-p {
-    color:darkorange;
-    font-family: shrikhand, cursive;
-    padding-left: 400px;
-    text-align: center;
-    font-size:25px;
-    font-weight:bold
-    
-}
-
-h1{
-    color:teal;
-    font-weight:bolder;
-    font-size: 30px;
-    font-family: shrikhand, cursive;
-    text-align:end;
-    margin-top:10px;
-    padding-top: 20px;
-    text-decoration:underline;
-    
-    
-}
-
-img {
-    /* background-image:url("images/travel.jpg"); */
-    width:50px;
-    height:50px;
-    /* position: absolute; */
-    bottom:100px;
-    top:50px;
-    left:30px;
-}
+/* blog page container excluding navbar */
 .wrapper{
     display:flex-wrap;
-    flex-direction: row;
-    
+    flex-direction: row; 
 }
+
+/* 5 blog items */
 .blog-item {
     display: flex-wrap;
     flex-direction: row;
 }
+
+/* image on blog item */
 .blog-item img {
     display:flex-wrap;
     height: 230px;
@@ -169,23 +123,21 @@ img {
     float: right;
     margin-top: 70px;
     margin-right: 15px;
-    /* padding-left:50px; */
 }
+
+/* contact page container */
 .contact-container{
     border-style: solid;
     border-color:orange;
-    height:auto;
-    width:auto;
+    height:100vh;
+    width:100vw;
     background-image: url("images/redphone.jpg");
     background-repeat:no-repeat;
     background-attachment: scroll;
     background-size: 100% 100%;
-    /* border-style: solid; */
-    /* border-color: darkblue; */
-    /* background-color:lightgray; */
-    border-radius:5%;
-    
 }
+
+/* contact page container excluding navbar */
 .contact-box{
     display:flex;
     flex-direction: column;
@@ -194,55 +146,49 @@ img {
     background-attachment: scroll;
     justify-content: center;
     align-items: flex-end;
-    /* align-items: center; */
-    
 }
-.format{
+
+/* container for form */
+.form{
     height:70vh;
     width:50vw;
     font-weight:bold;
-    /* display:flex; */
     text-align: right;
     color:darkorange;
-    /* align-items:center; */
     flex-direction: column;
     justify-content: space-around; 
     align-items: flex-end;
-    font-family: shrikhand,cursive;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
-    /* padding-right: 100px; */
     padding-right:20px;
     margin-right: 100px;
 }
-.format label,
-.format input {
-    /* height:50px; */
-}
+
+/* contact submit button */ */
 .button{
     height:40px;
     width:60px;
     background-color:orange;
-    /* background-color:light orange */
     border-radius:10%;
-    font-family:shrikhand, cursive;
+    font-family:Arial, Helvetica, sans-serif;
     color:whitesmoke;
-    font-size: 15px;
+    font-size: 20px;
     border-style:solid;
     border-color: black;
 }
-
+/* footer */
 .copyright{
     text-align:right;
     position:relative;
     color:teal;
-    font-weight:normal
+    font-weight:normal;
+    padding:0;
+    right:10px
 }
-
+/* about me page container */
 .about-container{
-    /* display:flex; */
-    /* flex-direction: column; */
     background-image: url("images/bg-1.jpeg");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: 100%;
     height:200vh;
     width:100vw;
@@ -250,16 +196,7 @@ img {
     opacity:1;
     border-radius:10px;
     padding: 10px;
-    
 }
-
-.icons {
-    height:70px;
-    width:100px;
-    padding-top: 50px;
-    right:20px
-}
-
 
 /* about-me past */
 .past{
@@ -290,12 +227,14 @@ img {
 }
 /* about-me paragraph */
 .past p {
+    float:right;
     text-align:right;
     font-size: 25px;
     font-weight:bold;
     padding-right:20px;
+    
 }
-
+/* code image */
 .present img{
     height:350px;
     width:520px;
@@ -306,10 +245,10 @@ img {
     /* top:500px; */
     /* position: absolute;  */
     float:right;
-   right:20px;
+    right:25px;
     
 }
-
+/* present container */
 .present{
     height:70vh;
     width:100vw;
@@ -318,8 +257,30 @@ img {
 .present h1{ 
     text-align: center;
 }
-
+/* presentparagraph */
 .present p{
     text-align: left;
     padding-left:20px;
+}
+ 
+.resume{
+    color: teal;
+}
+
+/* social div */
+.social {
+    height:20vh;
+    width:40vw;
+
+}
+/* image on social div */
+.social img {
+
+    height:40px;
+    width:40px;
+    float:left;
+    margin-left:20px;
+    left:20px;
+    border-style:solid;
+    border-color:lightslategray
 }
