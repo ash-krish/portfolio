@@ -1,4 +1,4 @@
-* Link to website: https://priceless-feynman-fb8a5a.netlify.com/
+* Link to website: https://cocky-pare-0b5a2b.netlify.com
 <br>
 
 * Link to GitHub: https://github.com/ash-krish/portfolio
