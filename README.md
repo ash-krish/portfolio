@@ -1,7 +1,7 @@
 * Link to website: https://priceless-feynman-fb8a5a.netlify.com/
 <br>
 
-* Link to GitHub: https://github.com/ash-krish
+* Link to GitHub: https://github.com/ash-krish/portfolio
 <br>
 
 * Purpose of the portfolio website:
@@ -24,16 +24,16 @@ It is an online showcase of my skills, a way to highlight my abilities and accom
 
 
 * Sitemap:
-![sitemap](images/final-sitemap.png)
+![sitemap](docs/final-sitemap.png)
 <br>
 
 * Screenshots:
 
-![homepage-version1](images/homepage-version1.png)
-![aboutme-version1](images/aboutme-version1.png)
-![blog-version1](images/blog-version1.png)
-![contact-version1](images/contact-version1.png)
-![navbar-version1](images/navbar-version1.png)
+![homepage-version1](docs/homepage-version1.png)
+![aboutme-version1](docs/aboutme-version1.png)
+![blog-version1](docs/blog-version1.png)
+![contact-version1](docs/contact-version1.png)
+![navbar-version1](docs/navbar-version1.png)
 
 <br>
 
